@@ -1,0 +1,20 @@
+{
+  "name": "schoology-automation",
+  "version": "1.0.0",
+  "description": "Automation tests for Schoology API",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp api-test"
+  },
+  "author": "Jafeth Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "del": "~4.0.0",
+    "gulp": "~3.9.1",
+    "gulp-help": "~1.6.1",
+    "gulp-jasmine": "~2.4.2",
+    "jasmine-reporters": "~2.3.2",
+    "jasmine-spec-reporter": "~4.2.1",
+    "restitup": "~1.0.1"
+  }
+}

@@ -1,0 +1,12 @@
+# folders
+
+.idea/
+.vscode/
+node_modules/
+api-results/
+
+# generic files
+*.log
+
+# specific files
+package-lock.json
