@@ -1,7 +1,7 @@
 const { Restitup } = require('restitup');
 const { $HttpStatus, $asyncSpec } = Restitup.modules
 
-describe('Functional CRUD operations on Groups', () => {
+describe('Functional Resource on Groups operations basic operations', () => {
   const RESOURCE = 'resources';
   let group = {};
   const postGroup = {
