@@ -10,7 +10,7 @@ const options = require('./options');
 
 const JASMINE_CONFIG = {
   verbose:true,
-  timeout: 2000,
+  timeout: 60000,
   reporter: [
     new reporters.JUnitXmlReporter({
       savePath: './api-results'
